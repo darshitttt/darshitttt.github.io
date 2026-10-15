@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darshit Pandya | Research Portfolio</title>
     <meta name="description" content="Research portfolio covering audio AI, speech processing, machine learning, and pervasive health.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Navigation -->
     <header>
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Main">
             <a href="#home" class="logo">Darshit Pandya</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -28,16 +28,14 @@
 
     <main>
 
-        <!-- Home / Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
-                <p class="eyebrow">RESEARCHER · MACHINE LEARNING · AUDIO AI</p>
-                <h1>Hi, I'm <span>Darshit Pandya.</span></h1>
-                <h2>Exploring intelligent audio systems for real-world applications.</h2>
+                <p class="eyebrow">Researcher in machine learning and audio AI</p>
+                <h1>Teaching machines to listen to the real world.</h1>
                 <p class="hero-description">
-                    My work focuses on audio machine learning, speech processing, and the development of intelligent
-                    systems that can understand real-world environments. I am particularly interested in interdisciplinary
-                    research connecting AI, mobile sensing, and health.
+                    I'm Darshit Pandya. I work on audio machine learning, speech processing, and
+                    on-device systems that understand everyday acoustic environments, with a focus on
+                    mobile sensing and health.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="button primary">Explore my work</a>
@@ -49,12 +47,16 @@
                     <a href="https://scholar.google.com/citations?user=eddtpKkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                 </div>
             </div>
+            <div class="wave" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
         </section>
 
-        <!-- About Section -->
         <section id="about" class="section">
-            <p class="section-label">01 / ABOUT</p>
-            <h2>Research driven by curiosity.</h2>
+            <h2>Research driven by curiosity</h2>
             <div class="about-content">
                 <p>
                     I work at the intersection of machine learning, audio processing, and real-world sensing.
@@ -72,21 +74,19 @@
             </div>
         </section>
 
-        <!-- Research Section -->
         <section id="research" class="section">
-            <p class="section-label">02 / RESEARCH</p>
             <h2>Research interests</h2>
             <div class="research-grid">
                 <article class="research-card">
-                    <h3>Audio AI & Speech Processing</h3>
+                    <h3>Audio AI and speech processing</h3>
                     <p>Automatic speech recognition, speaker diarization, audio tagging, and acoustic scene classification in challenging environments.</p>
                 </article>
                 <article class="research-card">
-                    <h3>Robust & Adaptive Machine Learning</h3>
+                    <h3>Robust and adaptive machine learning</h3>
                     <p>Parameter-efficient fine-tuning, bottleneck adapters, LoRA, and domain adaptation for robust audio models.</p>
                 </article>
                 <article class="research-card">
-                    <h3>Pervasive Health & Mobile Sensing</h3>
+                    <h3>Pervasive health and mobile sensing</h3>
                     <p>On-device audio intelligence, smartphone sensing, and the analysis of everyday activities using machine learning.</p>
                 </article>
                 <article class="research-card">
@@ -96,55 +96,40 @@
             </div>
         </section>
 
-        <!-- Projects Section -->
         <section id="projects" class="section">
-            <p class="section-label">03 / PROJECTS</p>
             <h2>Selected projects</h2>
-            <p class="section-intro">A selection of research projects, experiments, and applied machine learning systems.</p>
-            <div class="project-grid">
+            <p class="section-intro">Research projects, experiments, and applied machine learning systems.</p>
+            <div class="project-list">
                 <article class="project-card">
-                    <div class="project-number">PROJECT 01</div>
                     <h3>Robust Speech Recognition</h3>
                     <p>Investigating parameter-efficient adaptation of Whisper models to improve automatic speech recognition under real-world acoustic conditions.</p>
-                    <div class="tags">
-                        <span>Whisper</span>
-                        <span>ASR</span>
-                        <span>Adapters</span>
-                        <span>PyTorch</span>
-                    </div>
-                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project →</a>
+                    <ul class="tags">
+                        <li>Whisper</li><li>ASR</li><li>Adapters</li><li>PyTorch</li>
+                    </ul>
+                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project</a>
                 </article>
                 <article class="project-card">
-                    <div class="project-number">PROJECT 02</div>
                     <h3>On-Device Audio Intelligence</h3>
                     <p>Exploring privacy-conscious audio analysis on smartphones, including the detection of meal-related acoustic events using audio tagging.</p>
-                    <div class="tags">
-                        <span>Audio Tagging</span>
-                        <span>Android</span>
-                        <span>Kotlin</span>
-                        <span>Edge AI</span>
-                    </div>
-                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project →</a>
+                    <ul class="tags">
+                        <li>Audio Tagging</li><li>Android</li><li>Kotlin</li><li>Edge AI</li>
+                    </ul>
+                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project</a>
                 </article>
                 <article class="project-card">
-                    <div class="project-number">PROJECT 03</div>
                     <h3>Explainable Acoustic Scene Classification</h3>
                     <p>Studying how audio event predictions can provide semantically meaningful explanations for acoustic scene classification decisions.</p>
-                    <div class="tags">
-                        <span>ASC</span>
-                        <span>Audio Tagging</span>
-                        <span>Explainable AI</span>
-                    </div>
-                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project →</a>
+                    <ul class="tags">
+                        <li>ASC</li><li>Audio Tagging</li><li>Explainable AI</li>
+                    </ul>
+                    <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer" class="project-link">View project</a>
                 </article>
             </div>
         </section>
 
-        <!-- Publications Section -->
         <section id="publications" class="section">
-            <p class="section-label">04 / PUBLICATIONS</p>
-            <h2>Research publications</h2>
-            <p class="section-intro">Selected publications, preprints, and ongoing research.</p>
+            <h2>Publications</h2>
+            <p class="section-intro">Selected papers, preprints, and ongoing research.</p>
             <div class="publication-list">
                 <article class="publication">
                     <p class="publication-year">2026</p>
@@ -152,6 +137,7 @@
                         <h3>AcoustiMeal: Estimating Meal Duration using Audio Tagging on Smartphones</h3>
                         <p class="pub-authors">Darshit Pandya, Heiner Stuckenschmidt</p>
                         <p class="pub-venue">IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)</p>
+                        <!-- Add a link here once the paper is on IEEE Xplore or MADOC -->
                     </div>
                 </article>
                 <article class="publication">
@@ -160,6 +146,11 @@
                         <h3>Explainable Acoustic Scene Classification with Audio Tags and Feature Ablation</h3>
                         <p class="pub-authors">Darshit Pandya, Heiner Stuckenschmidt</p>
                         <p class="pub-venue">25th International Conference on Digital Signal Processing (DSP)</p>
+                        <p class="pub-links">
+                            <a href="https://ieeexplore.ieee.org/document/11075141" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>
+                            <a href="https://doi.org/10.1109/DSP65409.2025.11075141" target="_blank" rel="noopener noreferrer">DOI</a>
+                            <a href="https://madoc.bib.uni-mannheim.de/72305/" target="_blank" rel="noopener noreferrer">MADOC</a>
+                        </p>
                     </div>
                 </article>
                 <article class="publication">
@@ -168,6 +159,11 @@
                         <h3>Evaluating the Impact of Different Acoustic Contexts on German Speech Recognition</h3>
                         <p class="pub-authors">Darshit Pandya, Heiner Stuckenschmidt</p>
                         <p class="pub-venue">IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)</p>
+                        <p class="pub-links">
+                            <a href="https://ieeexplore.ieee.org/document/10503200" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>
+                            <a href="https://doi.org/10.1109/PerComWorkshops59983.2024.10503200" target="_blank" rel="noopener noreferrer">DOI</a>
+                            <a href="https://madoc.bib.uni-mannheim.de/69756" target="_blank" rel="noopener noreferrer">MADOC</a>
+                        </p>
                     </div>
                 </article>
                 <article class="publication">
@@ -197,43 +193,36 @@
             </div>
         </section>
 
-        <!-- Experience Section -->
         <section id="experience" class="section">
-            <p class="section-label">05 / EXPERIENCE</p>
-            <h2>Academic & professional experience</h2>
+            <h2>Academic and professional experience</h2>
             <div class="experience-list">
                 <article class="experience-item">
                     <div class="experience-date">PhD / Research</div>
                     <div>
                         <h3>Researcher in Audio AI and Machine Learning</h3>
-                        <p class="experience-place">University of Mannheim · Mannheim, Germany</p>
+                        <p class="experience-place">University of Mannheim, Germany</p>
                         <p>Research on speech processing, audio understanding, and machine learning for real-world applications.</p>
                     </div>
                 </article>
             </div>
-            <p class="cv-link">
-                <a href="assets/cv.pdf" target="_blank">View my CV ↗</a>
-            </p>
+            <p class="cv-link"><a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">View my CV</a></p>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="section contact-section">
-            <p class="section-label">06 / CONTACT</p>
-            <h2>Let's connect.</h2>
+            <h2>Let's connect</h2>
             <p>Interested in interdisciplinary research, collaborative projects, or exchanging ideas? Feel free to get in touch.</p>
             <a href="mailto:darshitashish2@gmail.com" class="button primary">Email me</a>
             <div class="contact-links">
-                <a href="https://github.com/darshitttt" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/darshit-pandya-/" target="_blank">LinkedIn</a>
-                <a href="https://scholar.google.com/citations?user=eddtpKkAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                <a href="https://github.com/darshitttt" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/darshit-pandya-/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=eddtpKkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
             </div>
         </section>
 
     </main>
 
-    <!-- Footer -->
     <footer>
-        <p>© <span id="year">2026</span> Darshit Pandya. Built with HTML and CSS.</p>
+        <p>© <span id="year">2026</span> Darshit Pandya</p>
     </footer>
 
 </body>
